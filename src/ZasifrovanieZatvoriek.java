@@ -1,19 +1,48 @@
-// Maly Janko sa dozvedel o tzv Cezarovej Sifre.
-// Vtedy sa kazdy znak v slove nahradí inym znakom podla pevne daného pravidla.
-// Ale to mu nestacilo. Vymyslel to tak, ze nebude Sifrovat cely text, ale iba jeho cast.
-// napíste program, ktory nacíta retazec,
-// v ktorom bude text uzavrety v zátvorkách a vtvoríte dva nové retazce -
-// v jednom bude iba ten text v zátvorkách a
-// v druhom bude tento text v zátvorkách zasifrovany takto:
-// ka¿dé písmeno sa nahradí písmenom vabecede nasledujúcim (po z nasleduje a),
-// vsetky ostatné znaky zostanú bez zmeny.
-// Napr. pre text Dnes piseme pisomku a (ak sa mi zadari?) dostanem (SNAD dobru) znamku
-// Vytvorite retazec v zátvorke "ak sa mi zadari"
-// druhv zasifrovany "bl tb ni abebsi"
-// vytvoríte retazec v zátvorke "SNAD dobru" A druhy zasifrovany "TOBE epcsv"
+//           abeceda(Ztest)abc(ztest2)
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class ZasifrovanieZatvoriek {
     public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        System.out.println("napis vetu");
+        String line = s.nextLine();
+        ArrayList<Integer> openingBracketPositions = new ArrayList<>();
+        ArrayList<Integer> closingBracketPositions = new ArrayList<>();
+        ArrayList<StringBuilder> bracketContents = new ArrayList<>();
+        ArrayList<StringBuilder> encryptedBracketContents = new ArrayList<>();
 
+        //zistim pozicie zatvoriek aby sme vedeli na akych miestach splitnut ten string
+        for (int i = 0; i < line.length(); i++) {
+            if (line.charAt(i) == '('){
+                openingBracketPositions.add(i+1);
+                // +1 je tu preto aby sa neskor neulozila do 'bracketContents' aj otvaracia zatvorka
+            } else if (line.charAt(i) == ')') {
+                closingBracketPositions.add(i);
+            }
+        }
+
+        //loop pustime tolko krat kolko mame '('
+        for (int i = 0; i < openingBracketPositions.size(); i++) {
+            bracketContents.add(new StringBuilder(line.substring(openingBracketPositions.get(i), closingBracketPositions.get(i))));
+        }
+
+        for (int i = 0; i < bracketContents.size(); i++) {
+            encryptedBracketContents.add(new StringBuilder());
+        }
+
+        for (int i = 0; i < encryptedBracketContents.size(); i++) {
+            for (char c : bracketContents.get(i).toString().toCharArray()){
+                if (c == 'z'){
+                    encryptedBracketContents.get(i).append('a');
+                } else if (c == 'Z') {
+                    encryptedBracketContents.get(i).append('A');
+                }else {
+                    encryptedBracketContents.get(i).append((char) (c + 1));
+                }
+            }
+        }
+        
+        System.out.println(bracketContents + "\nzasifrovane: \n"+ encryptedBracketContents);
     }
 }

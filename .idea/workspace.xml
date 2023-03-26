@@ -3,29 +3,40 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="sada_2_uloha_1" />
+      <module name="sada_1_uloha_11" />
+      <module name="sada_2_uloha_2" />
+      <module name="sada_1_uloha_12" />
+      <module name="sada_2_uloha_4" />
+      <module name="sada_1_uloha_1_string_odzadu" />
+      <module name="sada_3_stringbuilder_1" />
+      <module name="sada_1_uloha_2_palindrom" />
+      <module name="sada_3_stringbuilder_2" />
+      <module name="sada_1_uloha_3" />
+      <module name="stringbuilder_priklad_2" />
+      <module name="sada_1_uloha_4_pocet" />
+      <module name="sada_1_uloha_5" />
+      <module name="stringbuilder_priklad_3" />
+      <module name="stringbuilder_priklad_4" />
+      <module name="sada_1_uloha_6" />
+      <module name="opakovanie_uloha_1" />
+      <module name="sada_uloh_3" />
+      <module name="sada_1_uloha_7" />
+      <module name="stringbuilder_uvod" />
+      <module name="opakovanie_uloha_2" />
+      <module name="sada_1_uloha_8" />
+      <module name="uvod" />
+      <module name="sada_1_uloha_10" />
+    </loaded-modules>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7c146123-0bb0-435e-b85a-09d232c3c8c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sada_uloh_3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ZasifrovanieZatvoriek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Znamky.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/opakovanie4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stringy/opakovanie_uloha_1/opakovanie_uloha_1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stringy/opakovanie_uloha_1/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stringy/opakovanie_uloha_2/opakovanie_uloha_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stringy/opakovanie_uloha_2/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stringy/sada_3_stringbuilder_1/sada_3_stringbuilder_1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stringy/sada_3_stringbuilder_1/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stringy/sada_3_stringbuilder_2/sada_3_stringbuilder_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stringy/sada_3_stringbuilder_2/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stringy/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stringy/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stringy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stringy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stringy/stringbuilder_priklad_4/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stringy/stringbuilder_priklad_4/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZasifrovanieZatvoriek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZasifrovanieZatvoriek.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +77,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -80,6 +91,12 @@
       <updated>1679382414442</updated>
       <workItem from="1679382415594" duration="4583000" />
       <workItem from="1679420484894" duration="3077000" />
+      <workItem from="1679847047657" duration="82000" />
+      <workItem from="1679847144757" duration="159000" />
+      <workItem from="1679847315687" duration="133000" />
+      <workItem from="1679847460863" duration="43000" />
+      <workItem from="1679847515577" duration="602000" />
+      <workItem from="1679848134102" duration="5033000" />
     </task>
     <servers />
   </component>
