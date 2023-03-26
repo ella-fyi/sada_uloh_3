@@ -12,17 +12,14 @@ public class ZasifrovanieZatvoriek {
         ArrayList<StringBuilder> bracketContents = new ArrayList<>();
         ArrayList<StringBuilder> encryptedBracketContents = new ArrayList<>();
 
-        //zistim pozicie zatvoriek aby sme vedeli na akych miestach splitnut ten string
         for (int i = 0; i < line.length(); i++) {
             if (line.charAt(i) == '('){
                 openingBracketPositions.add(i+1);
-                // +1 je tu preto aby sa neskor neulozila do 'bracketContents' aj otvaracia zatvorka
             } else if (line.charAt(i) == ')') {
                 closingBracketPositions.add(i);
             }
         }
 
-        //loop pustime tolko krat kolko mame '('
         for (int i = 0; i < openingBracketPositions.size(); i++) {
             bracketContents.add(new StringBuilder(line.substring(openingBracketPositions.get(i), closingBracketPositions.get(i))));
         }
@@ -42,7 +39,6 @@ public class ZasifrovanieZatvoriek {
                 }
             }
         }
-        
         System.out.println(bracketContents + "\nzasifrovane: \n"+ encryptedBracketContents);
     }
 }

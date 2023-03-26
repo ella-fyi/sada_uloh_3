@@ -32,9 +32,7 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c146123-0bb0-435e-b85a-09d232c3c8c0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="7c146123-0bb0-435e-b85a-09d232c3c8c0" name="Changes" comment="sifra hotova">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ZasifrovanieZatvoriek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZasifrovanieZatvoriek.java" afterDir="false" />
     </list>
@@ -96,8 +94,16 @@
       <workItem from="1679847315687" duration="133000" />
       <workItem from="1679847460863" duration="43000" />
       <workItem from="1679847515577" duration="602000" />
-      <workItem from="1679848134102" duration="5033000" />
+      <workItem from="1679848134102" duration="5084000" />
     </task>
+    <task id="LOCAL-00001" summary="sifra hotova">
+      <created>1679853271036</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679853271036</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +111,10 @@
   </component>
   <component name="UnloadedModulesList">
     <module name="stringy" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sifra hotova" />
+    <option name="LAST_COMMIT_MESSAGE" value="sifra hotova" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
