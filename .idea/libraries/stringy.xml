@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="stringy">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../stringy/programko-juro.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../stringy/21-2-2023-programko.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
