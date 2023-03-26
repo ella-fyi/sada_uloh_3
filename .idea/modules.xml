@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../stringy/opakovanie_uloha_1/opakovanie_uloha_1.iml" filepath="$PROJECT_DIR$/../stringy/opakovanie_uloha_1/opakovanie_uloha_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stringy/opakovanie_uloha_2/opakovanie_uloha_2.iml" filepath="$PROJECT_DIR$/../stringy/opakovanie_uloha_2/opakovanie_uloha_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stringy/sada_1_uloha_10/sada_1_uloha_10.iml" filepath="$PROJECT_DIR$/../stringy/sada_1_uloha_10/sada_1_uloha_10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stringy/sada_1_uloha_11/sada_1_uloha_11.iml" filepath="$PROJECT_DIR$/../stringy/sada_1_uloha_11/sada_1_uloha_11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stringy/sada_1_uloha_12/sada_1_uloha_12.iml" filepath="$PROJECT_DIR$/../stringy/sada_1_uloha_12/sada_1_uloha_12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stringy/sada_1_uloha_1_string_odzadu/sada_1_uloha_1_string_odzadu.iml" filepath="$PROJECT_DIR$/../stringy/sada_1_uloha_1_string_odzadu/sada_1_uloha_1_string_odzadu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stringy/sada_1_uloha_2_palindrom/sada_1_uloha_2_palindrom.iml" filepath="$PROJECT_DIR$/../stringy/sada_1_uloha_2_palindrom/sada_1_uloha_2_palindrom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stringy/sada_1_uloha_3/sada_1_uloha_3.iml" filepath="$PROJECT_DIR$/../stringy/sada_1_uloha_3/sada_1_uloha_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stringy/sada_1_uloha_4_pocet/sada_1_uloha_4_pocet.iml" filepath="$PROJECT_DIR$/../stringy/sada_1_uloha_4_pocet/sada_1_uloha_4_pocet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stringy/sada_1_uloha_5/sada_1_uloha_5.iml" filepath="$PROJECT_DIR$/../stringy/sada_1_uloha_5/sada_1_uloha_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stringy/sada_1_uloha_6/sada_1_uloha_6.iml" filepath="$PROJECT_DIR$/../stringy/sada_1_uloha_6/sada_1_uloha_6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stringy/sada_1_uloha_7/sada_1_uloha_7.iml" filepath="$PROJECT_DIR$/../stringy/sada_1_uloha_7/sada_1_uloha_7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stringy/sada_1_uloha_8/sada_1_uloha_8.iml" filepath="$PROJECT_DIR$/../stringy/sada_1_uloha_8/sada_1_uloha_8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stringy/sada_2_uloha_1/sada_2_uloha_1.iml" filepath="$PROJECT_DIR$/../stringy/sada_2_uloha_1/sada_2_uloha_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stringy/sada_2_uloha_2/sada_2_uloha_2.iml" filepath="$PROJECT_DIR$/../stringy/sada_2_uloha_2/sada_2_uloha_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stringy/sada_2_uloha_4/sada_2_uloha_4.iml" filepath="$PROJECT_DIR$/../stringy/sada_2_uloha_4/sada_2_uloha_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stringy/sada_3_stringbuilder_1/sada_3_stringbuilder_1.iml" filepath="$PROJECT_DIR$/../stringy/sada_3_stringbuilder_1/sada_3_stringbuilder_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stringy/sada_3_stringbuilder_2/sada_3_stringbuilder_2.iml" filepath="$PROJECT_DIR$/../stringy/sada_3_stringbuilder_2/sada_3_stringbuilder_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sada_uloh_3.iml" filepath="$PROJECT_DIR$/sada_uloh_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stringy/stringbuilder_priklad_2/stringbuilder_priklad_2.iml" filepath="$PROJECT_DIR$/../stringy/stringbuilder_priklad_2/stringbuilder_priklad_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stringy/stringbuilder_priklad_3/stringbuilder_priklad_3.iml" filepath="$PROJECT_DIR$/../stringy/stringbuilder_priklad_3/stringbuilder_priklad_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stringy/stringbuilder_priklad_4/stringbuilder_priklad_4.iml" filepath="$PROJECT_DIR$/../stringy/stringbuilder_priklad_4/stringbuilder_priklad_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stringy/stringbuilder_uvod/stringbuilder_uvod.iml" filepath="$PROJECT_DIR$/../stringy/stringbuilder_uvod/stringbuilder_uvod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stringy/stringy.iml" filepath="$PROJECT_DIR$/../stringy/stringy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stringy/uvod/uvod.iml" filepath="$PROJECT_DIR$/../stringy/uvod/uvod.iml" />
+    </modules>
+  </component>
+</project>
