@@ -1,8 +1,8 @@
-//           abeceda(Ztest)abc(ztest2)
+//           abeceda"Ztest" abc " ztest2"
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class ZasifrovanieZatvoriek {
+public class ZasifrovanieUvodzoviek {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.println("napis vetu");
@@ -31,21 +31,13 @@ public class ZasifrovanieZatvoriek {
         for (int i = 0; i < encryptedBracketContents.size(); i++) {
             for (char c : bracketContents.get(i).toString().toCharArray()){
                 if (c == 'z'){
-                    encryptedBracketContents
-                            .get(i)
-                            .append('a');
+                    encryptedBracketContents.get(i).append('a');
                 } else if (c == 'Z') {
-                    encryptedBracketContents
-                            .get(i)
-                            .append('A');
+                    encryptedBracketContents.get(i).append('A');
                 } else if (c == ' ' || c == '!' || c == '?' || c == ',' || c == '.') {
-                    encryptedBracketContents
-                            .get(i)
-                            .append(c);
+                    encryptedBracketContents.get(i).append(c);
                 } else {
-                    encryptedBracketContents
-                            .get(i)
-                            .append((char) (c + 1));
+                    encryptedBracketContents.get(i).append((char) (c + 1));
                 }
             }
         }
